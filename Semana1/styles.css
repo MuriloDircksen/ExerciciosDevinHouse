@@ -7,7 +7,12 @@ h1 {
     font-size: 20px;
     color: rgb(26, 131, 5);
     text-align: center;
-
+    
+    
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-abstrato-aquarela-de-inverno-azul_23-2149147677.jpg?w=740&t=st=1670684466~exp=1670685066~hmac=1767bbdb2e6dd0b723089fe993a6d7846ac8eec569c1ebf3d945e40c7f0629b8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 p {
