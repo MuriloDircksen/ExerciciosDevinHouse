@@ -56,13 +56,13 @@ function exec6() {
     var operacao = prompt("DIgite uma das 4 operações? \n(+, -, *, /)")
     var numero1 = parseFloat(prompt("Digite primeiro número?"))
     var numero2 = parseFloat(prompt("Digite segundo número?"))
-    
+
     if (isNaN(numero1) || isNaN(numero2)) {
         alert("Somente números permitido.")
-        
+
     } else {
         switch (operacao) {
-            
+
             case "+":
                 alert("Soma:" + (numero1 + numero2))
                 break;
@@ -82,3 +82,27 @@ function exec6() {
 
     }
 }
+
+function exec7() {
+    
+    var quantidade = 0;
+
+    for (var i = 2; i <= 1000; i++) {
+        var primo = true;
+        for (var j = 2; j < i; j++) {
+
+            if (i % j === 0) {
+                primo = false;
+                break;
+            }
+        }
+        if (primo) {
+            
+            quantidade += 1;
+            console.log(i);
+        }
+
+    }
+    return console.log("Quantidade: " + quantidade)
+}
+exec7()
