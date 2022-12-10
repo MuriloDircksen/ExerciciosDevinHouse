@@ -55,3 +55,19 @@ iframe {
     margin: 0 auto;
     max-width: 100%;
 }
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: rgb(187, 195, 207);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav img#logo {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+  }
