@@ -37,3 +37,17 @@ function exec4(){
     }
     alert(soma)
 }
+function exec5(){
+    var numero = parseInt(prompt("Digite um número?"))
+    var par=0;
+    var impar=0;
+    for(i=0;i<=numero;i++){
+        if(i % 2 === 0){
+            par += 1
+        }
+        else{
+            impar += 1
+        }
+    }
+    alert(`Pares: ${par}\n Impares: ${impar}`)
+}
