@@ -1,4 +1,4 @@
-function exec1() {
+function exec2() {
     var idade = parseInt(prompt("Qual sua idade"))
 
     if (idade >= 0 && idade <= 15) {
@@ -13,7 +13,7 @@ function exec1() {
     }
 }
 
-function exec2(){
+function exec3(){
     var numero = parseInt(prompt("DIgite número para resolver a tabuada?"))
     var resultado = '';
     if(!isNaN(numero)){
@@ -22,4 +22,18 @@ function exec2(){
         }
     }
     alert(resultado)
+}
+
+function exec4(){
+    var numero, soma = 0;
+    while(numero !== -1){
+        numero = parseFloat(prompt("DIgite um número?"))
+        if(isNaN(numero) || numero === -1){
+            break;
+        }else  {
+            soma+=numero
+        }
+        
+    }
+    alert(soma)
 }
