@@ -1,3 +1,13 @@
+html,
+body,
+div,
+main,
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
 body {
     background-color: rgb(130, 187, 187);
 }
@@ -6,9 +16,7 @@ h1 {
     font-family: Verdana, sans-serif;
     font-size: 20px;
     color: rgb(26, 131, 5);
-    text-align: center;
-    
-    
+    text-align: center; 
     background-image: url(https://img.freepik.com/vetores-gratis/fundo-abstrato-aquarela-de-inverno-azul_23-2149147677.jpg?w=740&t=st=1670684466~exp=1670685066~hmac=1767bbdb2e6dd0b723089fe993a6d7846ac8eec569c1ebf3d945e40c7f0629b8);
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,3 +34,17 @@ a#botao button {
     padding: 10px;
     cursor: pointer;
 }
+a#botao img {
+    height: 40px;
+}
+
+div#imagens {
+    width: 100%;
+    display: flex;
+  }
+  
+  div#imagens img {
+    width: calc(100% / 3);
+    display: block;
+  }
+
