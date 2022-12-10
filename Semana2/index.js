@@ -13,41 +13,72 @@ function exec2() {
     }
 }
 
-function exec3(){
+function exec3() {
     var numero = parseInt(prompt("DIgite número para resolver a tabuada?"))
     var resultado = '';
-    if(!isNaN(numero)){
-        for(i=0; i<=10; i++){
-            resultado = resultado + `${numero} x ${i} = ${numero*i} \n`
+    if (!isNaN(numero)) {
+        for (i = 0; i <= 10; i++) {
+            resultado = resultado + `${numero} x ${i} = ${numero * i} \n`
         }
     }
     alert(resultado)
 }
 
-function exec4(){
+function exec4() {
     var numero, soma = 0;
-    while(numero !== -1){
+    while (numero !== -1) {
         numero = parseFloat(prompt("DIgite um número?"))
-        if(isNaN(numero) || numero === -1){
+        if (isNaN(numero) || numero === -1) {
             break;
-        }else  {
-            soma+=numero
+        } else {
+            soma += numero
         }
-        
+
     }
     alert(soma)
 }
-function exec5(){
+function exec5() {
     var numero = parseInt(prompt("Digite um número?"))
-    var par=0;
-    var impar=0;
-    for(i=0;i<=numero;i++){
-        if(i % 2 === 0){
+    var par = 0;
+    var impar = 0;
+    for (i = 0; i <= numero; i++) {
+        if (i % 2 === 0) {
             par += 1
         }
-        else{
+        else {
             impar += 1
         }
     }
     alert(`Pares: ${par}\n Impares: ${impar}`)
+}
+
+function exec6() {
+    var operacao = prompt("DIgite uma das 4 operações? \n(+, -, *, /)")
+    var numero1 = parseFloat(prompt("Digite primeiro número?"))
+    var numero2 = parseFloat(prompt("Digite segundo número?"))
+    
+    if (isNaN(numero1) || isNaN(numero2)) {
+        alert("Somente números permitido.")
+        
+    } else {
+        switch (operacao) {
+            
+            case "+":
+                alert("Soma:" + (numero1 + numero2))
+                break;
+            case "-":
+                alert("Subtração:" + (numero1 - numero2))
+                break;
+            case "*":
+                alert("Multiplicação:" + (numero1 * numero2))
+                break;
+            case "/":
+                alert("Divisão:" + (numero1 / numero2))
+                break;
+            default:
+                alert("Operação inválida")
+                break;
+        }
+
+    }
 }
