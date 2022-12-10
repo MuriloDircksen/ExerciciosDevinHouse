@@ -106,3 +106,14 @@ function exec7() {
     return console.log("Quantidade: " + quantidade)
 }
 exec7()
+
+function exec8(){
+    var numero = parseInt(prompt("Digite valor?"))
+    var raiz = parseInt(prompt("Digite a raiz?"))
+    var resultado=''+ numero;
+    for(i=0;i<9;i++){
+        numero+=raiz;
+        resultado+=`, ${numero}`
+    }
+    alert(`Valor inicial: ${numero}\n Valor raiz: ${raiz}\n P.A: ${resultado}`)
+}
