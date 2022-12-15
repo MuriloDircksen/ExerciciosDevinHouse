@@ -35,3 +35,14 @@ const mensagemOla = (nome) =>{
 }
 let nome = "Mariana"
 console.log(mensagemOla(nome))
+
+const juntaArray = (array1, array2) => {
+    //método 1
+    let novoArray1= [].concat(array1, array2);
+    //método 2
+    let novoArray2=[...array1, ...array2];
+    console.log(novoArray1+"\n"+novoArray2)
+}
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+juntaArray(array1, array2)
