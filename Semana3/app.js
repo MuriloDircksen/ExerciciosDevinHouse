@@ -61,6 +61,7 @@ let objeto1 = { a: 1, b: 2 };
 let objeto2 = { c: 3, d: 4 };
 juntaObjeto(objeto1, objeto2)
 
+
 const somaTudo = (inicial, ...args) =>{
     console.log(args)
     let total2=0;
