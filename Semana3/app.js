@@ -29,3 +29,9 @@ const minMax = (valores) =>{
 let valores = [20,10, 30]
 maxMin(valores);
 minMax(valores);
+
+const mensagemOla = (nome) =>{
+    return `Olá ${nome}`
+}
+let nome = "Mariana"
+console.log(mensagemOla(nome))
