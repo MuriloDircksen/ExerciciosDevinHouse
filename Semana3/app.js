@@ -60,3 +60,13 @@ const juntaObjeto = (objeto1, objeto2) => {
 let objeto1 = { a: 1, b: 2 };
 let objeto2 = { c: 3, d: 4 };
 juntaObjeto(objeto1, objeto2)
+
+const somaTudo = (inicial, ...args) =>{
+    console.log(args)
+    let total2=0;
+    let total = args.reduce((total, numero)=>total+numero,inicial);
+    total2 = args.map(e=>total2+e);
+    console.log(total)
+}
+
+somaTudo(1, 2, 3, 4);
