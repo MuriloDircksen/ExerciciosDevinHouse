@@ -46,3 +46,17 @@ const juntaArray = (array1, array2) => {
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 juntaArray(array1, array2)
+
+const juntaObjeto = (objeto1, objeto2) => {
+    //método 1
+    const novoObjeto1= Object.assign({}, objeto1, objeto2);
+    
+    //método 2
+    let novoObjeto2={...objeto1, ...objeto2,};
+    console.log(JSON.stringify(novoObjeto1)+"\n"+JSON.stringify(novoObjeto2))
+    console.log(novoObjeto1);
+    console.log(novoObjeto2);
+}
+let objeto1 = { a: 1, b: 2 };
+let objeto2 = { c: 3, d: 4 };
+juntaObjeto(objeto1, objeto2)
