@@ -43,8 +43,8 @@ const juntaArray = (array1, array2) => {
     let novoArray2=[...array1, ...array2];
     console.log(novoArray1+"\n"+novoArray2)
 }
-let array1 = [1, 2, 3];
-let array2 = [4, 5, 6];
+let [array1, array2] = [[1, 2, 3], [4, 5, 6]];
+
 juntaArray(array1, array2)
 
 const juntaObjeto = (objeto1, objeto2) => {
@@ -71,3 +71,17 @@ const somaTudo = (inicial, ...args) =>{
 }
 
 somaTudo(1, 2, 3, 4);
+
+const palindromo = (str) => {
+    let inverte='';
+    for ( i = str.length - 1; i >= 0; i--) { 
+        inverte += str[i]; 
+    }
+    if(str ===inverte){
+        return console.log("É palindromo")
+    }else{
+        return console.log("Não é palindromo")
+    }
+   
+}
+palindromo('julia')
