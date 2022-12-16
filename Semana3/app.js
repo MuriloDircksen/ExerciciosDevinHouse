@@ -30,9 +30,17 @@ let valores = [20, 10, 30]
 maxMin(valores);
 minMax(valores);
 
+const botao = document.getElementById('btn');
+const input = document.getElementById('nome');
+const pMensagem = document.getElementById('mensagem');
+
 const mensagemOla = (nome) => {
     return `Olá ${nome}`
 }
+botao.addEventListener('click', () =>{
+    pMensagem.innerHTML = mensagemOla(input.value);
+})
+
 let nome = "Mariana"
 console.log(mensagemOla(nome))
 
@@ -77,6 +85,7 @@ const palindromo = (str) => {
     for (i = str.length - 1; i >= 0; i--) {
         inverte += str[i];
     }
+   
     if (str === inverte) {
         return console.log("É palindromo")
     } else {
