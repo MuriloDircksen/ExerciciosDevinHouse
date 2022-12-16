@@ -64,9 +64,9 @@ juntaObjeto(objeto1, objeto2)
 
 const somaTudo = (inicial, ...args) =>{
     console.log(args)
-    let total2=0;
+    //let total2=0;
     let total = args.reduce((total, numero)=>total+numero,inicial);
-    total2 = args.map(e=>total2+e);
+   // total2 = args.map(e=>total2+e);
     console.log(total)
 }
 
@@ -97,3 +97,17 @@ const pessoa = {
     profissao: 'matemática'
   };
   destruct(pessoa);
+
+  const uneDobraRetorna = (arr, ...resto)=>{
+        let dobra = resto.map(e=>e*2);
+        let une=[...arr, ...dobra];
+        return une
+  }
+  const r1 = uneDobraRetorna([1, 2, 3], 4, 4)
+console.log(r1) // [1, 2, 3, 8, 8]
+
+const r2 = uneDobraRetorna([2], 10, 4, 8) 
+console.log(r2) // [2, 20, 8, 16]
+
+const r3 = uneDobraRetorna([6, 8]) 
+console.log(r3) // [6, 8]
