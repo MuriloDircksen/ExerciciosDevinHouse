@@ -85,3 +85,15 @@ const palindromo = (str) => {
    
 }
 palindromo('julia')
+
+const destruct = (obj) =>{
+    const {nome, idade, profissao}=obj;
+    console.log(`Esta é ${nome}, tem ${idade} anos e é ${profissao}.`)
+}
+
+const pessoa = {
+    nome: 'Ada',
+    idade: 36,
+    profissao: 'matemática'
+  };
+  destruct(pessoa);
