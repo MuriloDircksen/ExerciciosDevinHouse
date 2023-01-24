@@ -93,7 +93,16 @@ const palindromo = (str) => {
     }
 
 }
+
+const palindromo2 = (str) => {
+const inverte = str.split('').reverse().join('');
+
+  
+return str === inverte;
+}
 palindromo('julia')
+const pali = palindromo2("ana")
+console.log(pali)
 
 const destruct = (obj) => {
     const { nome, idade, profissao } = obj;
