@@ -2,6 +2,8 @@ const cadastros = []
 let testeSenha='';
 let testeConta = '';
 let conta = 0;
+let valor = 0;
+let teste = true;
 const enviar = document.getElementById("enviar");
 const saqueConta = document.getElementById("saque");
 const depositoConta = document.getElementById("deposito");
@@ -25,9 +27,10 @@ enviar.addEventListener('click', (event)=>{
         conta: conta,
         saldo: 0,
         })
-    conta=0;
+    
         console.log(cadastros);
         alert(`Conta ${conta} criada com sucesso!`);
+        conta=0;
    }
    else{
     alert('Conta não criada, senha inválida!')
@@ -54,34 +57,62 @@ const convert_to_cpf = (number) => {
     testeSenha =  prompt('Digite a senha?');
 
     cadastros.forEach((elemento)=>{
-        
+        console.log(depositoConta.checked, saqueConta.checked )
         if(elemento.conta == testeConta && elemento.senha == testeSenha){
            if(saldoConta.checked){
             consultarSaldo(elemento);
+            
            }
            else if(saqueConta.checked){
-            saque(elemento);
+            valor = parseFloat(prompt("Digite o valor a ser sacado?"))
+            saque(elemento, valor);
            }
            else if(depositoConta.checked){
-            deposito(elemento);
+            valor = parseFloat(prompt("Digite o valor a ser depositado?"))
+            deposito(elemento, valor);
            }
+           teste= false;
+        }
 
-        }
-        else{
-            alert('Conta ou senha inválidos!');
-        }
+        
   } )
+console.log(teste)
+  if(teste){
+    alert('Conta ou senha inválidos!');
+}
+teste = true;
   testeConta='';
   testeSenha='';
 })
 
-  const saque = ((elemento)=>{
-
+  const saque = ((elemento, valor)=>{
+   
+    if(valor>0){
+        if((elemento.saldo-valor)>=0){
+            elemento.saldo-= valor;
+            console.log(cadastros)
+            valor = 0;
+            alert(`Saque realizado com sucesso. Saldo atual: ${elemento.saldo}`)
+        }
+        else{
+            alert(`Saldo insuficiente! Saldo atual: ${elemento.saldo}`)
+        }
+    }
+    else{
+        alert("Valor inválido!")
+    }
 
   })
 
-  const deposito = ((elemento)=>{
-
+  const deposito = ((elemento, valor)=>{
+    if(valor>0){
+        elemento.saldo+= valor;
+        alert(`Deposito realizado com sucesso. Saldo atual: ${elemento.saldo}`)
+            console.log(cadastros)
+    }
+    else{
+        alert("Valor inválido!")
+    }
 
   })
 
