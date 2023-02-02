@@ -1,6 +1,7 @@
 import Funcionario from "./funcionario.js";
 import Fatura from "./fatura.js";
 import Personagem from "./personagem.js";
+import { Cachorro, Gato } from "./animal.js";
 
 // exercicio 1
 const ada = new Funcionario("528.442.040-31", "Ada Lovelace", 1000);
@@ -32,3 +33,11 @@ console.log(alyx.percentualVida); // 50
 alyx.usouKitMedico();
 
 console.log(alyx.percentualVida); // 60
+
+
+//exercicio 4
+
+const snoopy = new Cachorro('snoopy', 10);
+console.log( snoopy.som );   // "latido"     
+const frajola = new Gato('frajola', 8);
+console.log( frajola.som );   // "miado"
