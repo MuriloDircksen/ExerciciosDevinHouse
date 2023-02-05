@@ -4,8 +4,9 @@ import Personagem from "./personagem.js";
 import { Cachorro, Gato } from "./animal.js";
 import CalculadoraDeArea from "./calculadoraDeArea.js";
 import Juros from "./juros.js";
-import Time from "./Time.js";
-import Partida from "./Partida.js";
+import Time from "./time.js";
+import Partida from "./partida.js";
+import Usuario from "./usuario.js";
 
 // exercicio 1
 console.log("Exercicio 1");
@@ -102,3 +103,39 @@ times.forEach(time => {
   });
   time.exibirSituacao();
 });
+
+
+//exercicio 8
+
+console.log("Exercicio 8");
+
+const cEmail = document.getElementById("email");
+const cSenha = document.getElementById("senha");
+const bAcessar = document.getElementById("acessar");
+const pMensagem = document.getElementById("mensagem");
+
+const usuarios = [
+  new Usuario("Rosa", "rosa@gmail.com", "123456"),
+  new Usuario("Pedro", "pedro@gmail.com", "654321"),
+];
+
+bAcessar.addEventListener("click", () => {
+  const email = cEmail.value;
+  const senha = cSenha.value;
+
+  let usuarioEncontrado = null;
+
+  if (email && senha) {
+    usuarioEncontrado = usuarios.find(usuario => {
+      return usuario.autenticar(email, senha)
+    });
+  }
+
+  if (usuarioEncontrado) {
+    pMensagem.innerHTML = `Olá, ${usuarioEncontrado.nome}!`;
+    cEmail.value = "";
+    cSenha.value = "";
+  } else {
+    pMensagem.innerHTML = "E-mail ou senha inválidos!";
+  }
+})
