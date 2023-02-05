@@ -3,6 +3,7 @@ import Fatura from "./fatura.js";
 import Personagem from "./personagem.js";
 import { Cachorro, Gato } from "./animal.js";
 import CalculadoraDeArea from "./calculadoraDeArea.js";
+import Juros from "./juros.js";
 
 // exercicio 1
 const ada = new Funcionario("528.442.040-31", "Ada Lovelace", 1000);
@@ -52,3 +53,17 @@ console.log(areaQA); // 36
 const triangB = new CalculadoraDeArea("triangulo", 8, 7);
 const areaTB = triangB.calcular();
 console.log(areaTB); // 28
+
+//exercicio 6
+
+
+
+const aplicacao1 = new Juros(10000, 0.07, 24);
+const aplicacao2 = new Juros(10000, 0.15, 10);
+
+console.log("Aplicação 1");
+console.log(aplicacao1.calcularJurosSimples());
+console.log(aplicacao1.calcularJurosCompostos());
+console.log("Aplicação 2");
+console.log(aplicacao2.calcularJurosSimples());
+console.log(aplicacao2.calcularJurosCompostos());
