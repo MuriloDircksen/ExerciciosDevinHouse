@@ -4,8 +4,11 @@ import Personagem from "./personagem.js";
 import { Cachorro, Gato } from "./animal.js";
 import CalculadoraDeArea from "./calculadoraDeArea.js";
 import Juros from "./juros.js";
+import Time from "./Time.js";
+import Partida from "./Partida.js";
 
 // exercicio 1
+console.log("Exercicio 1");
 const ada = new Funcionario("528.442.040-31", "Ada Lovelace", 1000);
 
 console.log(ada.salario); // 1000
@@ -15,6 +18,7 @@ ada.promover(50);
 console.log(ada.salario); // 1500
 
 //exercicio 2
+console.log("Exercicio 2");
 
 const melao = new Fatura(123, "Melão", 2, 3);
 
@@ -24,6 +28,7 @@ console.log(valor); // 6
 
 //exercicio 3
 
+console.log("Exercicio 3");
 const alyx = new Personagem("Alyx");
 
 console.log(alyx.percentualVida); // 100
@@ -39,6 +44,7 @@ console.log(alyx.percentualVida); // 60
 
 //exercicio 4
 
+console.log("Exercicio 4");
 const snoopy = new Cachorro('snoopy', 10);
 console.log( snoopy.som );   // "latido"     
 const frajola = new Gato('frajola', 8);
@@ -46,6 +52,7 @@ console.log( frajola.som );   // "miado"
 
 //exercicio 5
 
+console.log("Exercicio 5");
 const quadA = new CalculadoraDeArea("quadrado", 6, 6);
 const areaQA = quadA.calcular();
 console.log(areaQA); // 36
@@ -56,7 +63,7 @@ console.log(areaTB); // 28
 
 //exercicio 6
 
-
+console.log("Exercicio 6");
 
 const aplicacao1 = new Juros(10000, 0.07, 24);
 const aplicacao2 = new Juros(10000, 0.15, 10);
@@ -67,3 +74,31 @@ console.log(aplicacao1.calcularJurosCompostos());
 console.log("Aplicação 2");
 console.log(aplicacao2.calcularJurosSimples());
 console.log(aplicacao2.calcularJurosCompostos());
+
+//exercicio 7
+
+console.log("Exercicio 7");
+
+
+
+const times = [
+  new Time("Vasco", "VAS"),
+  new Time("Fluminense", "FLU"),
+  new Time("Flamengo", "FLA"),
+  new Time("Botafogo", "BOT"),
+]
+
+const partidas = [
+  new Partida("VAS", 2, "FLA", 1),
+  new Partida("FLU", 1, "BOT", 0),
+  new Partida("VAS", 3, "FLU", 1),
+  new Partida("FLA", 1, "BOT", 1),
+];
+
+
+times.forEach(time => {
+  partidas.forEach(partida => {
+    time.computarPartida(partida);
+  });
+  time.exibirSituacao();
+});
