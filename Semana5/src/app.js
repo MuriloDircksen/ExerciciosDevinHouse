@@ -139,3 +139,5 @@ bAcessar.addEventListener("click", () => {
     pMensagem.innerHTML = "E-mail ou senha inválidos!";
   }
 })
+
+
