@@ -70,3 +70,26 @@ Promise.all([aprovacaoCadastro, aprovacaoValor])
 .finally(()=>{
     console.log("Fim do processamento");
 })
+
+//Exercicio 4
+
+console.log("Exercicio 4");
+
+const fakeTime = () => parseInt(Math.random() * 10000);
+
+const retornoEmpresa1 = new Promise((resolve) => setTimeout(resolve, fakeTime(), 'Empresa 1'));
+
+const retornoEmpresa2 = new Promise((resolve) => setTimeout(resolve, fakeTime(), 'Empresa 2'));
+
+// ... continue daqui ....
+
+Promise.race([retornoEmpresa1, retornoEmpresa2])
+.then((resultado) =>{
+    console.log(resultado)
+})
+.catch((err) =>{
+    console.log(err)
+})
+.finally(()=>{
+    console.log("Fim da execução!")
+})
