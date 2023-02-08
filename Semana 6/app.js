@@ -93,3 +93,22 @@ Promise.race([retornoEmpresa1, retornoEmpresa2])
 .finally(()=>{
     console.log("Fim da execução!")
 })
+
+// exercicio 5
+
+console.log("Exercicio 5");
+
+
+async function obterClienteNoBancoDeDados(idCliente) {
+    
+            const cliente = { nome: 'bruce wayne', id: idCliente };
+            return cliente;
+    
+}
+
+function processar() {
+    obterClienteNoBancoDeDados(7)
+        .then(cliente => console.log(cliente));
+}
+
+processar();
