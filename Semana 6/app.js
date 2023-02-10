@@ -100,15 +100,19 @@ console.log("Exercicio 5");
 
 
 async function obterClienteNoBancoDeDados(idCliente) {
-    
+    return new Promise( (resolve, reject) => {
             const cliente = { nome: 'bruce wayne', id: idCliente };
-            return cliente;
-    
+            resolve(cliente);
+    });
 }
 
-function processar() {
-    obterClienteNoBancoDeDados(7)
-        .then(cliente => console.log(cliente));
+async function processar() {
+    try{
+    const cliente = await obterClienteNoBancoDeDados(7)
+        console.log(cliente);
+    }catch(erro){
+        console.log(erro);
+    }
 }
 
 processar();
