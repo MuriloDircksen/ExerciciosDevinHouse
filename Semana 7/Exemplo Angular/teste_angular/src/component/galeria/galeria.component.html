@@ -1,1 +1,16 @@
-<p>galeria works!</p>
+<h1>{{titulo}}</h1>
+
+<div *ngIf="fotos.length > 0">
+  <div>
+
+    <img [src]="fotos[fotoAtual]" style="width: 50%">
+    <br>
+    Foto {{fotoAtual +1}} de {{fotos.length}}
+
+    <button (click)="primeira()" [disabled] = "fotoAtual == 0">Primeira</button>
+    <button (click)="voltarParaAnterior()" [disabled] = "fotoAtual == 0">Volta</button>
+    <button (click)="vaiParaProxima()" [disabled] = "fotoAtual == ultima()">Avança</button>
+    <button (click)="vaiParaUltima()" [disabled] = "fotoAtual == ultima()">Ultima</button>
+
+  </div>
+</div>
