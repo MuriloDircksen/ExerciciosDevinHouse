@@ -4,37 +4,39 @@ let testeConta = '';
 let conta = 0;
 let valor = 0;
 let teste = true;
-const enviar = document.getElementById("enviar");
+const enviarFormulario = document.getElementById("form");
 const saqueConta = document.getElementById("saque");
 const depositoConta = document.getElementById("deposito");
 const saldoConta = document.getElementById("saldo");
-const operacao = document.getElementById("executa");
+const formOperacao = document.getElementById("form-operacao");
+const operacao = document.getElementById("operacao");
 
-enviar.addEventListener('click', (event)=>{
+enviarFormulario.addEventListener('submit', (event)=>{
     event.preventDefault();
-    const nome = document.getElementById("nome").value;
-    const cpf = document.getElementById("cpf").value;
-    const celular = document.getElementById("celular").value;
+    
     const senha = document.getElementById("senha").value;
     const confirmaSenha = document.getElementById("confirmacao").value;
-   if(senha == confirmaSenha && senha!=""){
-    conta = new Date().getTime();
-    cadastros.push({
+   if(senha !== confirmaSenha){
+      alert('Conta não criada, senha inválida!')
+      return;
+   }
+  
+   const nome = document.getElementById("nome").value;
+   const cpf = document.getElementById("cpf").value;
+   const celular = document.getElementById("celular").value;
+   conta = new Date().getTime();
+   cadastros.push({
         nome: nome,
         cpf: cpfMask(cpf),
         celular: celular,
         senha: senha,
         conta: conta,
         saldo: 0,
-        })
+  })
     
-        console.log(cadastros);
-        alert(`Conta ${conta} criada com sucesso!`);
-        conta=0;
-   }
-   else{
-    alert('Conta não criada, senha inválida!')
-   }
+  console.log(cadastros);
+  alert(`Conta ${conta} criada com sucesso!`);
+  conta=0;
 
 
 })
@@ -44,81 +46,104 @@ const convert_to_cpf = (number) => {
     const eleven_numbers = addLeadingZeros(numbers, 11);
     return cpfMask(eleven_numbers);
   };
-  const cpfMask = (cpf) =>{
+const cpfMask = (cpf) =>{
     cpf=cpf.replace(/\D/g,'');
     cpf=cpf.replace(/(\d{3})(\d)/,'$1.$2');
     cpf=cpf.replace(/(\d{3})(\d)/,'$1.$2');
     cpf=cpf.replace(/(\d{3})(\d{1,2})$/,'$1-$2');
     return cpf;
-  };
+ };
 
-  operacao.addEventListener('click',()=>{
-    testeConta = parseInt(prompt('Digite a conta?'));
-    testeSenha =  prompt('Digite a senha?');
+  formOperacao.addEventListener('submit',(event)=>{
+    event.preventDefault();
 
-    cadastros.forEach((elemento)=>{
-        console.log(depositoConta.checked, saqueConta.checked )
-        if(elemento.conta == testeConta && elemento.senha == testeSenha){
-           if(saldoConta.checked){
-            consultarSaldo(elemento);
-            
-           }
-           else if(saqueConta.checked){
-            valor = parseFloat(prompt("Digite o valor a ser sacado?"))
-            saque(elemento, valor);
-           }
-           else if(depositoConta.checked){
-            valor = parseFloat(prompt("Digite o valor a ser depositado?"))
-            deposito(elemento, valor);
-           }
-           teste= false;
-        }
+    testeConta = parseInt(event.target.conta.value);
+    const operacao = event.target.operacao.value;
+    const valor = parseFloat(event.target.valor.value);
+    testeSenha =  event.target.senhaOperacao.value;
 
+    const contaAtual = cadastros.find((elemento) => elemento.conta === testeConta);
+    
+    if(!contaAtual){
+      alert("Conta inválida")
+      return;
+    }
+    if(contaAtual.senha !== testeSenha){
+      alert("Senha inválida")
+      return;
+    }
         
-  } )
-console.log(teste)
-  if(teste){
-    alert('Conta ou senha inválidos!');
-}
-teste = true;
+    switch(operacao){
+      case 'saque' :
+        sacar(contaAtual, valor);
+        break;
+      case 'deposito' :
+        depositar(contaAtual, valor);
+        break;
+      case 'saldo' :
+        consultarSaldo(contaAtual, valor);
+        break;
+      default :
+        alert("Operação inválda!");
+        break;
+    }
+
+  
+  
   testeConta='';
   testeSenha='';
-})
+});
 
-  const saque = ((elemento, valor)=>{
+  const sacar = ((conta, valor)=>{
    
     if(valor>0){
-        if((elemento.saldo-valor)>=0){
-            elemento.saldo-= valor;
-            console.log(cadastros)
+        if(conta.saldo >= valor){
+            conta.saldo-= valor;
             valor = 0;
-            alert(`Saque realizado com sucesso. Saldo atual: ${elemento.saldo}`)
-        }
-        else{
-            alert(`Saldo insuficiente! Saldo atual: ${elemento.saldo}`)
-        }
-    }
-    else{
-        alert("Valor inválido!")
-    }
-
-  })
-
-  const deposito = ((elemento, valor)=>{
-    if(valor>0){
-        elemento.saldo+= valor;
-        alert(`Deposito realizado com sucesso. Saldo atual: ${elemento.saldo}`)
             console.log(cadastros)
+            alert(`Saque realizado com sucesso. Saldo atual: ${conta.saldo}`)
+            return;
+        }
+        
+        alert(`Saldo insuficiente! Saldo atual: ${conta.saldo}`)
+        return;
     }
-    else{
-        alert("Valor inválido!")
-    }
+    
+    alert("Valor inválido!")
+    
 
   })
 
-  const consultarSaldo = ((elemento)=>{
+  const depositar = ((conta, valor)=>{
+    if(valor>0){
+        conta.saldo+= valor;
+        alert(`Deposito realizado com sucesso. Saldo atual: ${conta.saldo}`)
+        console.log(cadastros)
+        return;
+    }
+    
+    alert("Valor inválido!")
+    
+
+  })
+
+  const consultarSaldo = ((conta)=>{
           
-    alert(`Saldo: ${elemento.saldo}`);
+    alert(`Saldo: ${conta.saldo}`);
     testeSenha='';
             
-  })
+  });
+
+operacao.addEventListener('change', (event) =>{
+  const valorEntrada = document.getElementById('valor');
+
+  if(event.target.value === 'saldo'){
+    valorEntrada.disabled = true;
+    valorEntrada.value = '';
+    return;
+  }
+  valorEntrada.disabled = false;
+});
+
+
+  

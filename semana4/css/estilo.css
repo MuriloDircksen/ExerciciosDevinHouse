@@ -22,7 +22,7 @@ header{
     display: flex;
     align-items:flex-end;
     padding: 10px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: static;
     background-color: rgb(8, 29, 59);
     color: #fff;
