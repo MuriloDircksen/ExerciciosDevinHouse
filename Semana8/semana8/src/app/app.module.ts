@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 import { StarWarsComponent } from 'src/components/star-wars/star-wars.component';
 
 @NgModule({
@@ -13,7 +14,8 @@ import { StarWarsComponent } from 'src/components/star-wars/star-wars.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
