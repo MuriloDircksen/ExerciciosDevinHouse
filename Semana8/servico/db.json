@@ -1,0 +1,11 @@
+{
+  "funcionarios": [
+    {"id":1, "nome":"Eduardo", "departamento":"recursos humanos" },
+    {"id":2, "nome":"Elisa", "departamento":"TI" },
+    {"id":3, "nome":"Eliseu", "departamento":"recursos humanos" },
+    {"id":4, "nome":"Elena", "departamento":"Infraestrutura" },
+    {"id":5, "nome":"Elieser", "departamento":"Gestão de Recursos" },
+    {"id":6, "nome":"Elenilton", "departamento":"recursos humanos" },
+    {"id":7, "nome":"Enola", "departamento":"Comercial" }
+  ]
+}
