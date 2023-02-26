@@ -1,13 +1,13 @@
 export class Personagem{
-  id:string;
+  id?:string;
   nome:string;
   habilidade:string;
   planeta:string
   armas:string;
   avatar:string;
 
-  constructor(id:string, nome:string, habilidade:string, planeta:string, armas:string, avatar:string){
-    this.id=id;
+  constructor(nome:string, habilidade:string, planeta:string, armas:string, avatar:string){
+
     this.nome=nome;
     this.habilidade=habilidade;
     this.planeta=planeta;
