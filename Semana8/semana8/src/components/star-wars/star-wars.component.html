@@ -1,8 +1,10 @@
-Cadastrar: <input type="radio" name="escolha" value="1" (change)="changeTipoTemplate('1')">
-Atualizar: <input type="radio" name="escolha" value="2" (change)="changeTipoTemplate('2')">
-Obter todos:<input type="radio" name="escolha" value="3" (change)="changeTipoTemplate('3')">
-Deletar: <input type="radio" name="escolha" value="4" (change)="changeTipoTemplate('4')">
-Encontrar: <input type="radio" name="escolha" value="5" (change)="changeTipoTemplate('5')">
+
+Cadastrar: <input type="radio" name="escolha" value="1" (change)="mudaTemplate('1')">
+Atualizar: <input type="radio" name="escolha" value="2" (change)="mudaTemplate('2')">
+Obter todos: <input type="radio" name="escolha" value="3" (change)="mudaTemplate('3')">
+Deletar: <input type="radio" name="escolha" value="4" (change)="mudaTemplate('4')">
+Encontrar: <input type="radio" name="escolha" value="5" (change)="mudaTemplate('5')">
+
 
 <ng-container *ngIf="tipo_template === '1'">
   <h2>Cadastrar Personagem: </h2>
@@ -40,37 +42,7 @@ Encontrar: <input type="radio" name="escolha" value="5" (change)="changeTipoTemp
   <hr>
 <form>
 
-  <button class="buttons-actions" (click)="obterTodosPersonagens()">obterTodosPersonagens</button>
-  <section class="personagens-card">
-    <div *ngFor="let personagem of personagens">
-        <div class="container-fluid">
-            <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                <div class="card card_red text-center" style="width:18rem">
-                    <div class="title">
-                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                    <img src={{personagem.avatar}} class="card-img-top" alt="..." width="200px">
-                    </div>
-                    <div class="price">
-                    <h4>{{personagem.nome}}</h4>
-                    </div>
-                    <div class="option">
-                    <ul>
-                        <li><strong>Habilidade: </strong>{{personagem.habilidade}}</li>
-                        <li><strong>Planeta: </strong>{{personagem.planeta}}</li>
-                        <li><strong>Armas: </strong>{{personagem.armas}}</li>
-                        </ul>
-                    </div>
-                    <a href="#">Saiba Mais</a>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-
-    </div>
-  </section>
+  <button class="buttons-actions" (click)="obterTodosPersonagens()">Obter todos</button>
 
 </form>
 </ng-container>
@@ -79,7 +51,7 @@ Encontrar: <input type="radio" name="escolha" value="5" (change)="changeTipoTemp
   <h2>Deletar Personagem: </h2>
   <hr>
 <form>
-  <p><label>Id: </label> <input type="text" name="id" placeholder="Digite id em caso de atualização" [(ngModel)]="id"></p>
+  <p><label>Id: </label> <input type="text" name="id" placeholder="Digite id da deleção" [(ngModel)]="id"></p>
 
   <button class="buttons-actions" (click)="remover()">Remover</button>
 
@@ -90,9 +62,41 @@ Encontrar: <input type="radio" name="escolha" value="5" (change)="changeTipoTemp
   <h2>Encontrar Personagem: </h2>
   <hr>
 <form>
-  <p><label>Id: </label> <input type="text" name="id" placeholder="Digite id em caso de atualização" [(ngModel)]="id"></p>
+  <p><label>Id: </label> <input type="text" name="id" placeholder="Digite id " [(ngModel)]="id"></p>
 
   <button class="buttons-actions" (click)="obterSomenteUm()">Obter Somente 1</button>
 </form>
 </ng-container>
+
+<section class="personagens-card">
+  <div *ngFor="let personagem of personagens">
+      <div class="container-fluid">
+          <div class="container">
+          <div class="row">
+              <div class="col-sm-4">
+              <div class="card card_red text-center" style="width:18rem">
+                  <div class="title">
+                  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                  <img src={{personagem.avatar}} class="card-img-top" alt="..." width="200px">
+                  </div>
+                  <div class="price">
+                  <h4>{{personagem.nome}}</h4>
+                  </div>
+                  <div class="option">
+                  <ul>
+                      <li><strong>Habilidade: </strong>{{personagem.habilidade}}</li>
+                      <li><strong>Planeta: </strong>{{personagem.planeta}}</li>
+                      <li><strong>Armas: </strong>{{personagem.armas}}</li>
+                      </ul>
+                  </div>
+                  <a href="#">Saiba Mais</a>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+
+  </div>
+</section>
+
 
