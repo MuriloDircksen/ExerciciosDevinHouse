@@ -1,11 +1,11 @@
 {
-  "name": "semana8",
+  "name": "netflix",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "json-server --watch database.json",
+    "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "private": true,
@@ -18,13 +18,6 @@
     "@angular/platform-browser": "^15.1.0",
     "@angular/platform-browser-dynamic": "^15.1.0",
     "@angular/router": "^15.1.0",
-    "@ng-bootstrap/ng-bootstrap": "^14.0.1",
-    "@popperjs/core": "^2.11.6",
-    "@typescript-eslint/eslint-plugin": "^5.53.0",
-    "@typescript-eslint/parser": "^5.53.0",
-    "bootstrap": "^5.2.3",
-    "eslint-config-airbnb-typescript": "^17.0.0",
-    "json-server": "^0.17.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
@@ -41,9 +34,5 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4"
-  },
-  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC"
+  }
 }
