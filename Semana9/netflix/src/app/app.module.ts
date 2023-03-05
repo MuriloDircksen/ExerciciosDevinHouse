@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/pages/home/home.component';
+import { HomeComponent } from './components/home/home.component';
 import { PagesComponent } from './components/pages/pages/pages.component';
-import { SerieComponent } from './components/pages/serie/serie.component';
+import { SerieComponent } from './components/serie/serie.component';
 
 @NgModule({
   declarations: [
