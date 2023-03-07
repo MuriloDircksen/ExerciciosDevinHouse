@@ -1,1 +1,14 @@
-<p>login works!</p>
+<form [formGroup]="formUsuario">
+  <h3>Entrar</h3>
+  <div class="form-floating">
+    <input type="mail" class="form-control" id="usuario-email" formControlName="email" placeholder="example@example.com" required>
+    <label for="floatingInput">Email</label>
+  </div>
+  <div class="form-floating">
+    <input type="password" class="form-control" id="usuario-senha" formControlName="senha" required>
+    <label for="floatingInput">Senha</label>
+  </div>
+
+  <button (click)="onSubmit()">Entrar</button>
+
+</form>

@@ -3,12 +3,12 @@
     {
       "id": 1,
       "email": "adm@adm.com",
-      "password": "adm123"
+      "senha": "root"
     },
     {
       "id": 2,
-      "email": "teste@teste.com",
-      "password": "teste123"
+      "email": "murilo@gmail.com",
+      "senha": "123"
     }
   ],
   "series": [
@@ -33,7 +33,7 @@
         "seasonStartDate": "2018-10-12",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "85814dcd-729d-577f-873b-e3b7d9f21ab1",
+        "id": "85814dcd-729d-577f-873b-e3b7d9f21ab1",
         "scrapedAt": "05/03/2022 14:51:34"
       },
       {
@@ -56,7 +56,7 @@
         "seasonStartDate": "2019-12-18",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "134f93fc-a991-55ca-ad36-8c438b930e52",
+        "id": "134f93fc-a991-55ca-ad36-8c438b930e52",
         "scrapedAt": "05/03/2022 14:51:36"
       },
       {
@@ -79,7 +79,7 @@
         "seasonStartDate": "2020-2-13",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "e5461057-25c2-59a5-8672-d4b4a102ee00",
+        "id": "e5461057-25c2-59a5-8672-d4b4a102ee00",
         "scrapedAt": "05/03/2022 14:51:37"
       },
       {
@@ -102,7 +102,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "bbc71932-fc79-51aa-bf83-023c2c5db97c",
+        "id": "bbc71932-fc79-51aa-bf83-023c2c5db97c",
         "scrapedAt": "05/03/2022 14:51:37"
       },
       {
@@ -125,7 +125,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "cd630201-99b9-5ac4-bb78-7fad5c65cc95",
+        "id": "cd630201-99b9-5ac4-bb78-7fad5c65cc95",
         "scrapedAt": "05/03/2022 14:51:38"
       },
       {
@@ -148,7 +148,7 @@
         "seasonStartDate": "2021-9-24",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "d452167a-817d-5526-9070-d7fc23e8ff67",
+        "id": "d452167a-817d-5526-9070-d7fc23e8ff67",
         "scrapedAt": "05/03/2022 14:51:38"
       },
       {
@@ -171,7 +171,7 @@
         "seasonStartDate": "2019-1-25",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "ef1d6583-df37-5e68-b1aa-348697b6f302",
+        "id": "ef1d6583-df37-5e68-b1aa-348697b6f302",
         "scrapedAt": "05/03/2022 14:51:38"
       },
       {
@@ -194,7 +194,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "c94d5145-fc57-584c-bb6a-0535d4ee9cfe",
+        "id": "c94d5145-fc57-584c-bb6a-0535d4ee9cfe",
         "scrapedAt": "05/03/2022 14:51:39"
       },
       {
@@ -217,7 +217,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "62338b6f-a642-5f8e-a846-dc8fb691ddcd",
+        "id": "62338b6f-a642-5f8e-a846-dc8fb691ddcd",
         "scrapedAt": "05/03/2022 14:51:39"
       },
       {
@@ -240,7 +240,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "6ff23afd-bc51-5a3d-99cf-464ff3bed09b",
+        "id": "6ff23afd-bc51-5a3d-99cf-464ff3bed09b",
         "scrapedAt": "05/03/2022 14:51:39"
       },
       {
@@ -263,7 +263,7 @@
         "seasonStartDate": "2022-3-4",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "1a888770-1435-5440-97eb-284225c1075b",
+        "id": "1a888770-1435-5440-97eb-284225c1075b",
         "scrapedAt": "05/03/2022 14:52:01"
       },
       {
@@ -286,7 +286,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "65ad9a98-9d55-589c-92b6-c473f8bbdf7c",
+        "id": "65ad9a98-9d55-589c-92b6-c473f8bbdf7c",
         "scrapedAt": "05/03/2022 14:52:01"
       },
       {
@@ -309,7 +309,7 @@
         "seasonStartDate": "2015-12-31",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "bf331d6b-e855-548c-8623-c6e04220c993",
+        "id": "bf331d6b-e855-548c-8623-c6e04220c993",
         "scrapedAt": "05/03/2022 14:52:01"
       },
       {
@@ -332,7 +332,7 @@
         "seasonStartDate": "2020-10-2",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "367989cb-8972-54ab-9a13-f7990f4e0395",
+        "id": "367989cb-8972-54ab-9a13-f7990f4e0395",
         "scrapedAt": "05/03/2022 14:52:02"
       },
       {
@@ -355,7 +355,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "c94082be-bac7-5dee-86bf-c957ccb8af91",
+        "id": "c94082be-bac7-5dee-86bf-c957ccb8af91",
         "scrapedAt": "05/03/2022 14:52:02"
       },
       {
@@ -378,7 +378,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "6f0af68e-fda9-582c-aa7d-b1fe3e818cb7",
+        "id": "6f0af68e-fda9-582c-aa7d-b1fe3e818cb7",
         "scrapedAt": "05/03/2022 14:52:02"
       },
       {
@@ -401,7 +401,7 @@
         "seasonStartDate": "2022-1-27",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "267f0f7e-53e5-52a4-aa2c-5768c7c5918f",
+        "id": "267f0f7e-53e5-52a4-aa2c-5768c7c5918f",
         "scrapedAt": "05/03/2022 14:52:03"
       },
       {
@@ -424,7 +424,7 @@
         "seasonStartDate": "2018-7-15",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "eee0636f-48a9-5590-b746-5c6a81217fc7",
+        "id": "eee0636f-48a9-5590-b746-5c6a81217fc7",
         "scrapedAt": "05/03/2022 14:52:04"
       },
       {
@@ -447,7 +447,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "f3ed4d6c-129a-5aa6-9ae4-f7a038ea55cf",
+        "id": "f3ed4d6c-129a-5aa6-9ae4-f7a038ea55cf",
         "scrapedAt": "05/03/2022 14:52:04"
       },
       {
@@ -470,7 +470,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "64e92249-c4eb-5ae9-8ae1-85db972ad367",
+        "id": "64e92249-c4eb-5ae9-8ae1-85db972ad367",
         "scrapedAt": "05/03/2022 14:52:04"
       },
       {
@@ -493,7 +493,7 @@
         "seasonStartDate": "2021-10-21",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "36f545ec-4dc7-5171-a30b-1349ab5958b2",
+        "id": "36f545ec-4dc7-5171-a30b-1349ab5958b2",
         "scrapedAt": "05/03/2022 14:52:14"
       },
       {
@@ -516,7 +516,7 @@
         "seasonStartDate": "2016-4-30",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "02c45fb5-3a06-5ba5-87bb-aef7f7e2d53c",
+        "id": "02c45fb5-3a06-5ba5-87bb-aef7f7e2d53c",
         "scrapedAt": "05/03/2022 14:52:22"
       },
       {
@@ -539,7 +539,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "d140cd72-9349-5c1c-838a-68a59b6eb9a8",
+        "id": "d140cd72-9349-5c1c-838a-68a59b6eb9a8",
         "scrapedAt": "05/03/2022 14:52:24"
       },
       {
@@ -562,7 +562,7 @@
         "seasonStartDate": "2021-10-22",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "3656e04c-dffe-5dbb-8a5a-0fa4a0aeefd8",
+        "id": "3656e04c-dffe-5dbb-8a5a-0fa4a0aeefd8",
         "scrapedAt": "05/03/2022 14:52:25"
       },
       {
@@ -585,7 +585,7 @@
         "seasonStartDate": "2019-12-6",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "dff8f76a-36ac-5eb2-980f-938c86fb574d",
+        "id": "dff8f76a-36ac-5eb2-980f-938c86fb574d",
         "scrapedAt": "05/03/2022 14:52:25"
       },
       {
@@ -608,7 +608,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "cfd11f86-0792-5720-b4f3-106e1bf5d4a7",
+        "id": "cfd11f86-0792-5720-b4f3-106e1bf5d4a7",
         "scrapedAt": "05/03/2022 14:52:25"
       },
       {
@@ -631,7 +631,7 @@
         "seasonStartDate": "2022-1-28",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "3099deea-7a2b-5180-acbc-31ddac4ca9e8",
+        "id": "3099deea-7a2b-5180-acbc-31ddac4ca9e8",
         "scrapedAt": "05/03/2022 14:52:25"
       },
       {
@@ -654,7 +654,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "253f6ddd-b3e1-50be-9c70-7fc3cfef29a0",
+        "id": "253f6ddd-b3e1-50be-9c70-7fc3cfef29a0",
         "scrapedAt": "05/03/2022 14:52:26"
       },
       {
@@ -677,7 +677,7 @@
         "seasonStartDate": "2016-12-20",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "ae2f65c1-585d-5730-91b8-fffa89799cad",
+        "id": "ae2f65c1-585d-5730-91b8-fffa89799cad",
         "scrapedAt": "05/03/2022 14:52:28"
       },
       {
@@ -700,7 +700,7 @@
         "seasonStartDate": "2022-1-14",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "13f0c601-36e6-51fd-85d9-119d8e64721f",
+        "id": "13f0c601-36e6-51fd-85d9-119d8e64721f",
         "scrapedAt": "05/03/2022 14:52:45"
       },
       {
@@ -723,7 +723,7 @@
         "seasonStartDate": "2019-4-23",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "7a8dc4ac-f99c-5ccc-9dc4-fcb8a84bbeeb",
+        "id": "7a8dc4ac-f99c-5ccc-9dc4-fcb8a84bbeeb",
         "scrapedAt": "05/03/2022 14:52:45"
       },
       {
@@ -746,7 +746,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "aad31f6d-c29a-533b-b483-5d6c9f2d7119",
+        "id": "aad31f6d-c29a-533b-b483-5d6c9f2d7119",
         "scrapedAt": "05/03/2022 14:52:45"
       },
       {
@@ -769,7 +769,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "e4377c48-798d-54e6-b9c7-40184eee3650",
+        "id": "e4377c48-798d-54e6-b9c7-40184eee3650",
         "scrapedAt": "05/03/2022 14:52:45"
       },
       {
@@ -792,7 +792,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "387bdb51-a54b-5a24-8f36-2fd40116be19",
+        "id": "387bdb51-a54b-5a24-8f36-2fd40116be19",
         "scrapedAt": "05/03/2022 14:52:46"
       },
       {
@@ -815,7 +815,7 @@
         "seasonStartDate": "2019-9-13",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "ee9ee947-048b-50a2-bcfa-78fa5f3e268a",
+        "id": "ee9ee947-048b-50a2-bcfa-78fa5f3e268a",
         "scrapedAt": "05/03/2022 14:52:47"
       },
       {
@@ -838,7 +838,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "346ecf0b-2831-5042-b2ca-245f9f33f7b2",
+        "id": "346ecf0b-2831-5042-b2ca-245f9f33f7b2",
         "scrapedAt": "05/03/2022 14:52:47"
       },
       {
@@ -861,7 +861,7 @@
         "seasonStartDate": "2016-1-5",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "bd7db6fa-f50a-582c-b1b1-e1444dc130a4",
+        "id": "bd7db6fa-f50a-582c-b1b1-e1444dc130a4",
         "scrapedAt": "05/03/2022 14:52:48"
       },
       {
@@ -884,7 +884,7 @@
         "seasonStartDate": "2018-11-16",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "bb35b433-ed48-556f-bdee-43b201532bbb",
+        "id": "bb35b433-ed48-556f-bdee-43b201532bbb",
         "scrapedAt": "05/03/2022 14:52:50"
       },
       {
@@ -907,7 +907,7 @@
         "seasonStartDate": "2020-5-19",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "797f2eef-2ba3-5ad6-a8ee-fd35c41847e6",
+        "id": "797f2eef-2ba3-5ad6-a8ee-fd35c41847e6",
         "scrapedAt": "05/03/2022 14:53:05"
       },
       {
@@ -930,7 +930,7 @@
         "seasonStartDate": "2021-6-4",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "08ba3d16-60d8-590f-acf9-b258c4edf5ae",
+        "id": "08ba3d16-60d8-590f-acf9-b258c4edf5ae",
         "scrapedAt": "05/03/2022 14:53:07"
       },
       {
@@ -953,7 +953,7 @@
         "seasonStartDate": "2018-8-17",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "90335f87-053f-5580-ad03-a6cb3bf3ae51",
+        "id": "90335f87-053f-5580-ad03-a6cb3bf3ae51",
         "scrapedAt": "05/03/2022 14:53:08"
       },
       {
@@ -976,7 +976,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "9816e5c1-06ea-54ec-b186-79e57a59f510",
+        "id": "9816e5c1-06ea-54ec-b186-79e57a59f510",
         "scrapedAt": "05/03/2022 14:53:08"
       },
       {
@@ -999,7 +999,7 @@
         "seasonStartDate": "2021-11-24",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "8893fc21-6606-5278-ac9b-a92c7c085ddb",
+        "id": "8893fc21-6606-5278-ac9b-a92c7c085ddb",
         "scrapedAt": "05/03/2022 14:53:08"
       },
       {
@@ -1022,7 +1022,7 @@
         "seasonStartDate": "2021-5-14",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "8545b9fe-707d-5dad-8a6a-fda51063f374",
+        "id": "8545b9fe-707d-5dad-8a6a-fda51063f374",
         "scrapedAt": "05/03/2022 14:53:08"
       },
       {
@@ -1045,7 +1045,7 @@
         "seasonStartDate": "2020-9-3",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "5da3f313-2b82-5291-8cf6-7a354ea84ad9",
+        "id": "5da3f313-2b82-5291-8cf6-7a354ea84ad9",
         "scrapedAt": "05/03/2022 14:53:09"
       },
       {
@@ -1068,7 +1068,7 @@
         "seasonStartDate": "2020-12-25",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "b4b6a90c-2f80-5e10-bb2a-47029c584ec8",
+        "id": "b4b6a90c-2f80-5e10-bb2a-47029c584ec8",
         "scrapedAt": "05/03/2022 14:53:10"
       },
       {
@@ -1091,7 +1091,7 @@
         "seasonStartDate": "2019-2-15",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "efa2b1ee-99cf-5e00-8a0f-af225254ff0d",
+        "id": "efa2b1ee-99cf-5e00-8a0f-af225254ff0d",
         "scrapedAt": "05/03/2022 14:53:11"
       },
       {
@@ -1114,7 +1114,7 @@
         "seasonStartDate": "2016-11-4",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "83cec79a-95f0-5e9f-ab36-d4564d107a9f",
+        "id": "83cec79a-95f0-5e9f-ab36-d4564d107a9f",
         "scrapedAt": "05/03/2022 14:53:12"
       },
       {
@@ -1137,7 +1137,7 @@
         "seasonStartDate": "2018-9-21",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "2a8d3ffe-bf1d-5f51-98c9-b89ccd5ce7d7",
+        "id": "2a8d3ffe-bf1d-5f51-98c9-b89ccd5ce7d7",
         "scrapedAt": "05/03/2022 14:53:29"
       },
       {
@@ -1160,7 +1160,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "4c8fadce-600d-5e0b-a325-45b01f5088a0",
+        "id": "4c8fadce-600d-5e0b-a325-45b01f5088a0",
         "scrapedAt": "05/03/2022 14:53:30"
       },
       {
@@ -1183,7 +1183,7 @@
         "seasonStartDate": "2019-7-19",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "cb7efb91-8b08-5b7f-abfb-1fe9b68ec47f",
+        "id": "cb7efb91-8b08-5b7f-abfb-1fe9b68ec47f",
         "scrapedAt": "05/03/2022 14:53:30"
       },
       {
@@ -1206,7 +1206,7 @@
         "seasonStartDate": "2021-4-2",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "81c7ab24-ccf5-548d-ab23-abaf7dfc99fd",
+        "id": "81c7ab24-ccf5-548d-ab23-abaf7dfc99fd",
         "scrapedAt": "05/03/2022 14:53:31"
       },
       {
@@ -1229,7 +1229,7 @@
         "seasonStartDate": "2019-12-20",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "be7ed494-c382-5a02-849a-e7a4dd9c3726",
+        "id": "be7ed494-c382-5a02-849a-e7a4dd9c3726",
         "scrapedAt": "05/03/2022 14:53:31"
       },
       {
@@ -1252,7 +1252,7 @@
         "seasonStartDate": "2021-10-7",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "f9ebc9eb-b67e-5450-b2d3-a45a6a4ceeef",
+        "id": "f9ebc9eb-b67e-5450-b2d3-a45a6a4ceeef",
         "scrapedAt": "05/03/2022 14:53:32"
       },
       {
@@ -1275,7 +1275,7 @@
         "seasonStartDate": "2017-12-1",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "ee7c6671-fdba-5c95-a2f2-c564cbdaf610",
+        "id": "ee7c6671-fdba-5c95-a2f2-c564cbdaf610",
         "scrapedAt": "05/03/2022 14:53:32"
       },
       {
@@ -1298,7 +1298,7 @@
         "seasonStartDate": "2022-2-16",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "d20ffba6-ca6f-54f4-9e09-c228408cdd37",
+        "id": "d20ffba6-ca6f-54f4-9e09-c228408cdd37",
         "scrapedAt": "05/03/2022 14:53:33"
       },
       {
@@ -1321,7 +1321,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "47d372f6-f09c-52a4-ae79-82cad6857621",
+        "id": "47d372f6-f09c-52a4-ae79-82cad6857621",
         "scrapedAt": "05/03/2022 14:53:33"
       },
       {
@@ -1344,7 +1344,7 @@
         "seasonStartDate": "2021-8-13",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "850976f8-1352-5679-bf52-285b83858a7e",
+        "id": "850976f8-1352-5679-bf52-285b83858a7e",
         "scrapedAt": "05/03/2022 14:53:36"
       },
       {
@@ -1367,7 +1367,7 @@
         "seasonStartDate": "2018-5-10",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "d0ee5b0b-df63-57da-a9e8-385fb8dd2739",
+        "id": "d0ee5b0b-df63-57da-a9e8-385fb8dd2739",
         "scrapedAt": "05/03/2022 14:53:52"
       },
       {
@@ -1390,7 +1390,7 @@
         "seasonStartDate": "2021-11-19",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "c9b11c66-f471-5a20-9772-1525e79a9f04",
+        "id": "c9b11c66-f471-5a20-9772-1525e79a9f04",
         "scrapedAt": "05/03/2022 14:53:52"
       },
       {
@@ -1413,7 +1413,7 @@
         "seasonStartDate": "2021-1-8",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "f8879f96-2204-54a4-840c-c3d4e94b5519",
+        "id": "f8879f96-2204-54a4-840c-c3d4e94b5519",
         "scrapedAt": "05/03/2022 14:53:54"
       },
       {
@@ -1436,7 +1436,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "1d2a4112-6912-5196-bc69-5d4567607855",
+        "id": "1d2a4112-6912-5196-bc69-5d4567607855",
         "scrapedAt": "05/03/2022 14:53:54"
       },
       {
@@ -1459,7 +1459,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "05918a0e-5bc8-5aa5-89ed-c230dc1a23a7",
+        "id": "05918a0e-5bc8-5aa5-89ed-c230dc1a23a7",
         "scrapedAt": "05/03/2022 14:53:54"
       },
       {
@@ -1482,7 +1482,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "727543ad-f747-5399-b743-8f3bd4ce1ac7",
+        "id": "727543ad-f747-5399-b743-8f3bd4ce1ac7",
         "scrapedAt": "05/03/2022 14:53:55"
       },
       {
@@ -1505,7 +1505,7 @@
         "seasonStartDate": "2021-9-1",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "2e861cf2-7f49-5e5f-aaa2-7ea33bdab7cb",
+        "id": "2e861cf2-7f49-5e5f-aaa2-7ea33bdab7cb",
         "scrapedAt": "05/03/2022 14:53:55"
       },
       {
@@ -1528,7 +1528,7 @@
         "seasonStartDate": "2022-3-1",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "52d2e620-4c25-5672-bd7a-dd241072f24a",
+        "id": "52d2e620-4c25-5672-bd7a-dd241072f24a",
         "scrapedAt": "05/03/2022 14:53:57"
       },
       {
@@ -1551,7 +1551,7 @@
         "seasonStartDate": "2021-10-22",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "8cccd0a1-62da-5cde-a3ba-fc994086aa63",
+        "id": "8cccd0a1-62da-5cde-a3ba-fc994086aa63",
         "scrapedAt": "05/03/2022 14:53:59"
       },
       {
@@ -1574,7 +1574,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "eeddc89a-1e2a-5ea7-bd0c-0e8e3e898301",
+        "id": "eeddc89a-1e2a-5ea7-bd0c-0e8e3e898301",
         "scrapedAt": "05/03/2022 14:53:59"
       },
       {
@@ -1597,7 +1597,7 @@
         "seasonStartDate": "2020-12-10",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "3575eca5-7fa1-5c10-ad32-1729e0e5909c",
+        "id": "3575eca5-7fa1-5c10-ad32-1729e0e5909c",
         "scrapedAt": "05/03/2022 14:54:12"
       },
       {
@@ -1620,7 +1620,7 @@
         "seasonStartDate": "2019-7-25",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "a57411c4-6fdd-54d3-819b-5a6a4afb8d81",
+        "id": "a57411c4-6fdd-54d3-819b-5a6a4afb8d81",
         "scrapedAt": "05/03/2022 14:54:13"
       },
       {
@@ -1643,7 +1643,7 @@
         "seasonStartDate": "2022-1-28",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "e0b3d77c-16bf-501b-bbcb-07507c49fb41",
+        "id": "e0b3d77c-16bf-501b-bbcb-07507c49fb41",
         "scrapedAt": "05/03/2022 14:54:13"
       },
       {
@@ -1666,7 +1666,7 @@
         "seasonStartDate": "2022-3-4",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "814bcc77-56a6-5ed1-8fa3-107049a3e59d",
+        "id": "814bcc77-56a6-5ed1-8fa3-107049a3e59d",
         "scrapedAt": "05/03/2022 14:54:15"
       },
       {
@@ -1689,7 +1689,7 @@
         "seasonStartDate": "2021-9-29",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "0c79eb96-d12b-52f0-8c28-c71341a62021",
+        "id": "0c79eb96-d12b-52f0-8c28-c71341a62021",
         "scrapedAt": "05/03/2022 14:54:15"
       },
       {
@@ -1712,7 +1712,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "25517e59-c1c1-5e29-b435-56a605afcfe4",
+        "id": "25517e59-c1c1-5e29-b435-56a605afcfe4",
         "scrapedAt": "05/03/2022 14:54:15"
       },
       {
@@ -1735,7 +1735,7 @@
         "seasonStartDate": "2017-10-13",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "81306d0b-b746-56e7-a906-f76a0f9a1d96",
+        "id": "81306d0b-b746-56e7-a906-f76a0f9a1d96",
         "scrapedAt": "05/03/2022 14:54:15"
       },
       {
@@ -1758,7 +1758,7 @@
         "seasonStartDate": "2021-12-31",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "17df978e-c327-592f-ae08-410d8fd6ec5e",
+        "id": "17df978e-c327-592f-ae08-410d8fd6ec5e",
         "scrapedAt": "05/03/2022 14:54:18"
       },
       {
@@ -1781,7 +1781,7 @@
         "seasonStartDate": "2019-8-8",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "a4ede0ab-a88a-5d99-a27e-eaec43632721",
+        "id": "a4ede0ab-a88a-5d99-a27e-eaec43632721",
         "scrapedAt": "05/03/2022 14:54:33"
       },
       {
@@ -1804,7 +1804,7 @@
         "seasonStartDate": "2022-1-18",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "28115f02-a8ff-50ea-a7c6-275af83bc6ef",
+        "id": "28115f02-a8ff-50ea-a7c6-275af83bc6ef",
         "scrapedAt": "05/03/2022 14:54:34"
       },
       {
@@ -1827,7 +1827,7 @@
         "seasonStartDate": "2020-4-27",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "1f764998-5b8b-52ec-b144-0b2304a3a2a0",
+        "id": "1f764998-5b8b-52ec-b144-0b2304a3a2a0",
         "scrapedAt": "05/03/2022 14:54:34"
       },
       {
@@ -1850,7 +1850,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "0b17478f-7c6e-5e58-aaeb-99582ebe3d63",
+        "id": "0b17478f-7c6e-5e58-aaeb-99582ebe3d63",
         "scrapedAt": "05/03/2022 14:54:34"
       },
       {
@@ -1873,7 +1873,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "89f613cf-0c81-5b3d-ae72-5ef4cf6f480b",
+        "id": "89f613cf-0c81-5b3d-ae72-5ef4cf6f480b",
         "scrapedAt": "05/03/2022 14:54:36"
       },
       {
@@ -1896,7 +1896,7 @@
         "seasonStartDate": "2019-1-11",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "8e7aff36-329c-506d-aa11-45d942642f3a",
+        "id": "8e7aff36-329c-506d-aa11-45d942642f3a",
         "scrapedAt": "05/03/2022 14:54:36"
       },
       {
@@ -1919,7 +1919,7 @@
         "seasonStartDate": "2021-11-19",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "5e7f921a-66ba-5d35-bccf-fcadfc8d945d",
+        "id": "5e7f921a-66ba-5d35-bccf-fcadfc8d945d",
         "scrapedAt": "05/03/2022 14:54:38"
       },
       {
@@ -1942,7 +1942,7 @@
         "seasonStartDate": "2017-5-12",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "698a8ba4-b3cd-57bc-bd97-991a97932e62",
+        "id": "698a8ba4-b3cd-57bc-bd97-991a97932e62",
         "scrapedAt": "05/03/2022 14:54:38"
       },
       {
@@ -1965,7 +1965,7 @@
         "seasonStartDate": "2016-7-15",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "264c0513-296b-51c3-8173-39170644b993",
+        "id": "264c0513-296b-51c3-8173-39170644b993",
         "scrapedAt": "05/03/2022 14:54:38"
       },
       {
@@ -1988,7 +1988,7 @@
         "seasonStartDate": "2021-3-4",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "cf16bc66-718c-5cd9-b6db-aee1f471213d",
+        "id": "cf16bc66-718c-5cd9-b6db-aee1f471213d",
         "scrapedAt": "05/03/2022 14:54:40"
       },
       {
@@ -2011,7 +2011,7 @@
         "seasonStartDate": "2021-9-17",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "10843e40-2407-56ff-9204-c1e3ddb2af7f",
+        "id": "10843e40-2407-56ff-9204-c1e3ddb2af7f",
         "scrapedAt": "05/03/2022 14:54:56"
       },
       {
@@ -2034,7 +2034,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "a174b272-1264-594b-bb23-7318d37b2a01",
+        "id": "a174b272-1264-594b-bb23-7318d37b2a01",
         "scrapedAt": "05/03/2022 14:54:56"
       },
       {
@@ -2057,7 +2057,7 @@
         "seasonStartDate": "2022-2-18",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "a50f338a-1880-5fd5-b5bd-7a589944570a",
+        "id": "a50f338a-1880-5fd5-b5bd-7a589944570a",
         "scrapedAt": "05/03/2022 14:54:57"
       },
       {
@@ -2080,7 +2080,7 @@
         "seasonStartDate": "2021-8-25",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "8ac05806-5a40-5b3d-a5e9-6dfd3ba75742",
+        "id": "8ac05806-5a40-5b3d-a5e9-6dfd3ba75742",
         "scrapedAt": "05/03/2022 14:54:57"
       },
       {
@@ -2103,7 +2103,7 @@
         "seasonStartDate": "2018-10-24",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "54d1eaee-55f1-5b51-bda0-34da1953ff8f",
+        "id": "54d1eaee-55f1-5b51-bda0-34da1953ff8f",
         "scrapedAt": "05/03/2022 14:54:57"
       },
       {
@@ -2126,7 +2126,7 @@
         "seasonStartDate": "2020-9-18",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "4410cf89-b64e-5a5d-8199-cb197c927730",
+        "id": "4410cf89-b64e-5a5d-8199-cb197c927730",
         "scrapedAt": "05/03/2022 14:54:58"
       },
       {
@@ -2149,7 +2149,7 @@
         "seasonStartDate": "2021-12-24",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "fab3cbb4-6f39-5a6b-8fae-ad6cc5f9375c",
+        "id": "fab3cbb4-6f39-5a6b-8fae-ad6cc5f9375c",
         "scrapedAt": "05/03/2022 14:54:59"
       },
       {
@@ -2172,7 +2172,7 @@
         "seasonStartDate": "2018-3-9",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "fa841482-5f7d-5d1d-8f0c-9b1067668b86",
+        "id": "fa841482-5f7d-5d1d-8f0c-9b1067668b86",
         "scrapedAt": "05/03/2022 14:55:00"
       },
       {
@@ -2195,7 +2195,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "8e59c858-2a67-5b82-84a9-9d1e08406fa7",
+        "id": "8e59c858-2a67-5b82-84a9-9d1e08406fa7",
         "scrapedAt": "05/03/2022 14:55:02"
       },
       {
@@ -2218,7 +2218,7 @@
         "seasonStartDate": "2019-10-4",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "88f90fc6-184a-5bbb-b322-71df73c623b8",
+        "id": "88f90fc6-184a-5bbb-b322-71df73c623b8",
         "scrapedAt": "05/03/2022 14:55:16"
       },
       {
@@ -2241,7 +2241,7 @@
         "seasonStartDate": "2018-12-14",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "bc358b8c-4de0-5365-ae10-ea06d0465b96",
+        "id": "bc358b8c-4de0-5365-ae10-ea06d0465b96",
         "scrapedAt": "05/03/2022 14:55:17"
       },
       {
@@ -2264,7 +2264,7 @@
         "seasonStartDate": "2019-5-3",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "c78acdb3-4e34-5e98-9ed6-cb83580f494a",
+        "id": "c78acdb3-4e34-5e98-9ed6-cb83580f494a",
         "scrapedAt": "05/03/2022 14:55:18"
       },
       {
@@ -2287,7 +2287,7 @@
         "seasonStartDate": "2021-8-20",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "108c3066-8e2f-51ca-b5cc-cac7253150be",
+        "id": "108c3066-8e2f-51ca-b5cc-cac7253150be",
         "scrapedAt": "05/03/2022 14:55:18"
       },
       {
@@ -2310,7 +2310,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "d5c43236-e27b-5ffe-9ac2-44d4fa0f8c4c",
+        "id": "d5c43236-e27b-5ffe-9ac2-44d4fa0f8c4c",
         "scrapedAt": "05/03/2022 14:55:18"
       },
       {
@@ -2333,7 +2333,7 @@
         "seasonStartDate": "2018-2-2",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "4022092b-9e89-56a6-b45c-9c4597b9395f",
+        "id": "4022092b-9e89-56a6-b45c-9c4597b9395f",
         "scrapedAt": "05/03/2022 14:55:18"
       },
       {
@@ -2356,7 +2356,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "33e8c3fb-5a47-5fa3-bb2e-567410068515",
+        "id": "33e8c3fb-5a47-5fa3-bb2e-567410068515",
         "scrapedAt": "05/03/2022 14:55:19"
       },
       {
@@ -2379,7 +2379,7 @@
         "seasonStartDate": "2017-7-21",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "0c8c78f3-3bb3-55a6-a73f-69576544630b",
+        "id": "0c8c78f3-3bb3-55a6-a73f-69576544630b",
         "scrapedAt": "05/03/2022 14:55:20"
       },
       {
@@ -2402,7 +2402,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "0aa812ee-897e-5bc6-b7bb-78a2183348e6",
+        "id": "0aa812ee-897e-5bc6-b7bb-78a2183348e6",
         "scrapedAt": "05/03/2022 14:55:22"
       },
       {
@@ -2425,7 +2425,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "faf44247-bb65-556f-acf4-1be8a795a87f",
+        "id": "faf44247-bb65-556f-acf4-1be8a795a87f",
         "scrapedAt": "05/03/2022 14:55:37"
       },
       {
@@ -2448,7 +2448,7 @@
         "seasonStartDate": "2019-2-1",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "ce354e67-50f9-5bd0-8ed3-b356c8da7fd8",
+        "id": "ce354e67-50f9-5bd0-8ed3-b356c8da7fd8",
         "scrapedAt": "05/03/2022 14:55:38"
       },
       {
@@ -2471,7 +2471,7 @@
         "seasonStartDate": "2021-8-13",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "756a34c6-adee-5f35-b219-347637bf9c4e",
+        "id": "756a34c6-adee-5f35-b219-347637bf9c4e",
         "scrapedAt": "05/03/2022 14:55:38"
       },
       {
@@ -2494,7 +2494,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "ea6c32bb-dc1f-58c9-a8f2-35443b986ada",
+        "id": "ea6c32bb-dc1f-58c9-a8f2-35443b986ada",
         "scrapedAt": "05/03/2022 14:55:38"
       },
       {
@@ -2517,7 +2517,7 @@
         "seasonStartDate": "2019-5-3",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "a274f4b4-ba39-5a82-b487-6b2a5dcefd2b",
+        "id": "a274f4b4-ba39-5a82-b487-6b2a5dcefd2b",
         "scrapedAt": "05/03/2022 14:55:39"
       },
       {
@@ -2540,7 +2540,7 @@
         "seasonStartDate": "2022-2-25",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "07cda85a-9102-59fa-8fb7-5e5596c5e380",
+        "id": "07cda85a-9102-59fa-8fb7-5e5596c5e380",
         "scrapedAt": "05/03/2022 14:55:39"
       },
       {
@@ -2563,7 +2563,7 @@
         "seasonStartDate": "2020-1-8",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "c5c143ca-680f-57cf-933f-81e271a04573",
+        "id": "c5c143ca-680f-57cf-933f-81e271a04573",
         "scrapedAt": "05/03/2022 14:55:40"
       },
       {
@@ -2586,7 +2586,7 @@
         "seasonStartDate": "2020-10-23",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "eb4d7ec8-818d-5171-ac12-f7416068f796",
+        "id": "eb4d7ec8-818d-5171-ac12-f7416068f796",
         "scrapedAt": "05/03/2022 14:55:41"
       },
       {
@@ -2609,7 +2609,7 @@
         "seasonStartDate": "2021-7-1",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "bac1f758-f5f9-59c8-a96b-9cd97d4b13d8",
+        "id": "bac1f758-f5f9-59c8-a96b-9cd97d4b13d8",
         "scrapedAt": "05/03/2022 14:55:41"
       },
       {
@@ -2632,7 +2632,7 @@
         "seasonStartDate": "2021-4-23",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "f1b6efcb-7ec5-56e1-83c1-69696dd6e900",
+        "id": "f1b6efcb-7ec5-56e1-83c1-69696dd6e900",
         "scrapedAt": "05/03/2022 14:55:56"
       },
       {
@@ -2655,7 +2655,7 @@
         "seasonStartDate": "2016-11-30",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "d3e8f2da-4e04-5ea1-81ad-67a1a896f35d",
+        "id": "d3e8f2da-4e04-5ea1-81ad-67a1a896f35d",
         "scrapedAt": "05/03/2022 14:55:58"
       },
       {
@@ -2678,7 +2678,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "c4569259-6f94-58da-802d-b935e07c84b3",
+        "id": "c4569259-6f94-58da-802d-b935e07c84b3",
         "scrapedAt": "05/03/2022 14:55:59"
       },
       {
@@ -2701,7 +2701,7 @@
         "seasonStartDate": "2019-1-1",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "d9a53f5d-347c-554b-84ad-08a96272d75e",
+        "id": "d9a53f5d-347c-554b-84ad-08a96272d75e",
         "scrapedAt": "05/03/2022 14:55:59"
       },
       {
@@ -2724,7 +2724,7 @@
         "seasonStartDate": "2021-12-29",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "5067ff09-4945-5c61-a5ca-0222c3652561",
+        "id": "5067ff09-4945-5c61-a5ca-0222c3652561",
         "scrapedAt": "05/03/2022 14:55:59"
       },
       {
@@ -2747,7 +2747,7 @@
         "seasonStartDate": "2021-11-4",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "fe6a68b9-2ba1-52aa-94db-7a2371f69b25",
+        "id": "fe6a68b9-2ba1-52aa-94db-7a2371f69b25",
         "scrapedAt": "05/03/2022 14:55:59"
       },
       {
@@ -2770,7 +2770,7 @@
         "seasonStartDate": "2022-2-3",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "03b6ab62-689c-5d80-b7e6-2cfd53422495",
+        "id": "03b6ab62-689c-5d80-b7e6-2cfd53422495",
         "scrapedAt": "05/03/2022 14:56:00"
       },
       {
@@ -2793,7 +2793,7 @@
         "seasonStartDate": "2022-3-1",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "bbc2e134-7b6f-5170-81b6-517a63e31931",
+        "id": "bbc2e134-7b6f-5170-81b6-517a63e31931",
         "scrapedAt": "05/03/2022 14:56:00"
       },
       {
@@ -2816,7 +2816,7 @@
         "seasonStartDate": "2018-7-12",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "69670824-3337-5bc7-bbca-cb27ce0ad652",
+        "id": "69670824-3337-5bc7-bbca-cb27ce0ad652",
         "scrapedAt": "05/03/2022 14:56:09"
       },
       {
@@ -2839,7 +2839,7 @@
         "seasonStartDate": "2021-2-17",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "19b0b3d0-fe65-549d-852c-2fdc8e80e737",
+        "id": "19b0b3d0-fe65-549d-852c-2fdc8e80e737",
         "scrapedAt": "05/03/2022 14:56:18"
       },
       {
@@ -2862,7 +2862,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "bd859f72-d053-51d6-974d-ab3a5122a7a1",
+        "id": "bd859f72-d053-51d6-974d-ab3a5122a7a1",
         "scrapedAt": "05/03/2022 14:56:18"
       },
       {
@@ -2885,7 +2885,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "f62d45dd-99e9-52c3-b81b-cc031f00fcf6",
+        "id": "f62d45dd-99e9-52c3-b81b-cc031f00fcf6",
         "scrapedAt": "05/03/2022 14:56:18"
       },
       {
@@ -2908,7 +2908,7 @@
         "seasonStartDate": "2022-1-28",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "6e719f3e-1c05-572b-b05c-21c88329d655",
+        "id": "6e719f3e-1c05-572b-b05c-21c88329d655",
         "scrapedAt": "05/03/2022 14:56:18"
       },
       {
@@ -2931,7 +2931,7 @@
         "seasonStartDate": "2018-12-21",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "d60fa7c2-3f47-58e8-b12d-be46459d8239",
+        "id": "d60fa7c2-3f47-58e8-b12d-be46459d8239",
         "scrapedAt": "05/03/2022 14:56:18"
       },
       {
@@ -2954,7 +2954,7 @@
         "seasonStartDate": "2021-10-1",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "c8fd286d-a3bb-5a25-917d-6e3aa44c21c2",
+        "id": "c8fd286d-a3bb-5a25-917d-6e3aa44c21c2",
         "scrapedAt": "05/03/2022 14:56:20"
       },
       {
@@ -2977,7 +2977,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "264993ca-2962-5a31-9f78-85768ac39f00",
+        "id": "264993ca-2962-5a31-9f78-85768ac39f00",
         "scrapedAt": "05/03/2022 14:56:20"
       },
       {
@@ -3000,7 +3000,7 @@
         "seasonStartDate": "2017-11-22",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "0eba7418-9690-5bc0-a39a-75693460cd07",
+        "id": "0eba7418-9690-5bc0-a39a-75693460cd07",
         "scrapedAt": "05/03/2022 14:56:23"
       },
       {
@@ -3023,7 +3023,7 @@
         "seasonStartDate": "2019-3-15",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "75321089-7af2-54c5-8dde-d6aaeffb9a1b",
+        "id": "75321089-7af2-54c5-8dde-d6aaeffb9a1b",
         "scrapedAt": "05/03/2022 14:56:25"
       },
       {
@@ -3046,7 +3046,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "61cf3ba1-a23d-5fdf-b451-18b8c6433892",
+        "id": "61cf3ba1-a23d-5fdf-b451-18b8c6433892",
         "scrapedAt": "05/03/2022 14:56:37"
       },
       {
@@ -3069,7 +3069,7 @@
         "seasonStartDate": "2020-2-7",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "4e7da5ff-b7a0-5fec-9c26-6282cff03257",
+        "id": "4e7da5ff-b7a0-5fec-9c26-6282cff03257",
         "scrapedAt": "05/03/2022 14:56:38"
       },
       {
@@ -3092,7 +3092,7 @@
         "seasonStartDate": "2019-5-3",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "85dd2f1a-c256-5deb-9bc2-748938173964",
+        "id": "85dd2f1a-c256-5deb-9bc2-748938173964",
         "scrapedAt": "05/03/2022 14:56:38"
       },
       {
@@ -3115,7 +3115,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "43dbfc5e-2e6f-5841-9509-4b8954eec1ed",
+        "id": "43dbfc5e-2e6f-5841-9509-4b8954eec1ed",
         "scrapedAt": "05/03/2022 14:56:40"
       },
       {
@@ -3138,7 +3138,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "9f3ff3bf-545e-596e-9351-c2578528e231",
+        "id": "9f3ff3bf-545e-596e-9351-c2578528e231",
         "scrapedAt": "05/03/2022 14:56:41"
       },
       {
@@ -3161,7 +3161,7 @@
         "seasonStartDate": "2019-3-8",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "5102c921-1ef9-5651-a1d8-dac9b82d4e22",
+        "id": "5102c921-1ef9-5651-a1d8-dac9b82d4e22",
         "scrapedAt": "05/03/2022 14:56:42"
       },
       {
@@ -3184,7 +3184,7 @@
         "seasonStartDate": "2020-7-15",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "e3f8c1a9-21b7-514c-a791-3de639fd40b6",
+        "id": "e3f8c1a9-21b7-514c-a791-3de639fd40b6",
         "scrapedAt": "05/03/2022 14:56:42"
       },
       {
@@ -3207,7 +3207,7 @@
         "seasonStartDate": "2022-2-11",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "ead8c75a-0d06-5c49-83ca-0d13a0a47836",
+        "id": "ead8c75a-0d06-5c49-83ca-0d13a0a47836",
         "scrapedAt": "05/03/2022 14:56:43"
       },
       {
@@ -3230,7 +3230,7 @@
         "seasonStartDate": "2022-2-12",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "68bc2a70-5988-5bae-a136-5bb4decec7cc",
+        "id": "68bc2a70-5988-5bae-a136-5bb4decec7cc",
         "scrapedAt": "05/03/2022 14:56:45"
       },
       {
@@ -3253,7 +3253,7 @@
         "seasonStartDate": "2018-6-8",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "dd74607c-6a40-5b5e-a458-5a1589bfe958",
+        "id": "dd74607c-6a40-5b5e-a458-5a1589bfe958",
         "scrapedAt": "05/03/2022 14:56:56"
       },
       {
@@ -3276,7 +3276,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "bf37799f-5d9e-5460-b631-73a874000dd8",
+        "id": "bf37799f-5d9e-5460-b631-73a874000dd8",
         "scrapedAt": "05/03/2022 14:56:56"
       },
       {
@@ -3299,7 +3299,7 @@
         "seasonStartDate": "2016-12-16",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "9fbb15bf-9158-5893-8620-3326724cf49a",
+        "id": "9fbb15bf-9158-5893-8620-3326724cf49a",
         "scrapedAt": "05/03/2022 14:56:57"
       },
       {
@@ -3322,7 +3322,7 @@
         "seasonStartDate": "2020-5-29",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "72e2a0af-02a1-5d25-9a1d-eb74cd82e6b8",
+        "id": "72e2a0af-02a1-5d25-9a1d-eb74cd82e6b8",
         "scrapedAt": "05/03/2022 14:56:58"
       },
       {
@@ -3345,7 +3345,7 @@
         "seasonStartDate": "2022-1-28",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "030c5bef-bf17-5e3c-874a-5248a0fc798c",
+        "id": "030c5bef-bf17-5e3c-874a-5248a0fc798c",
         "scrapedAt": "05/03/2022 14:56:58"
       },
       {
@@ -3368,7 +3368,7 @@
         "seasonStartDate": "2020-2-28",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "957197b0-7cec-58aa-9c78-62fc50e1fe74",
+        "id": "957197b0-7cec-58aa-9c78-62fc50e1fe74",
         "scrapedAt": "05/03/2022 14:56:58"
       },
       {
@@ -3391,7 +3391,7 @@
         "seasonStartDate": "",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "cd828c29-8ecd-54b1-8c12-e8911dac5c2e",
+        "id": "cd828c29-8ecd-54b1-8c12-e8911dac5c2e",
         "scrapedAt": "05/03/2022 14:56:59"
       },
       {
@@ -3414,7 +3414,7 @@
         "seasonStartDate": "2021-11-7",
         "source": "Netflix",
         "sourceLink": "https://netflix.com",
-        "uniqId": "2b0b2a1f-a3e4-55f5-96cb-8015d4ae8817",
+        "id": "2b0b2a1f-a3e4-55f5-96cb-8015d4ae8817",
         "scrapedAt": "05/03/2022 14:56:59"
       }
     ]
