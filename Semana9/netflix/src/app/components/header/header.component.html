@@ -1,0 +1,26 @@
+<nav>
+  <div class="left-content">
+    <div class="logo">
+      <img (click)="navegarHome()" width="92,5" src="../../../assets/imagens/logo.png">
+    </div>
+    <ul>
+      <li>
+        <a routerLink="/home">Início</a>
+      </li>
+      <li>
+        <a routerLink="#">Séries</a>
+      </li>
+      <li>
+        <a routerLink="#">Filmes</a>
+      </li>
+
+      <li>
+        <a routerLink="#">Minha lista</a>
+      </li>
+
+    </ul>
+  </div>
+  <button (click)="logout()">
+    Logout
+  </button>
+</nav>

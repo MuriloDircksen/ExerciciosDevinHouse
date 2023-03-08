@@ -11,6 +11,8 @@ import { PagesComponent } from './components/pages/pages/pages.component';
 import { SerieComponent } from './components/serie/serie.component';
 import { LoginComponent } from './components/login/login.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { CardComponent } from './components/card/card.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { MenuComponent } from './components/menu/menu.component';
     PagesComponent,
     SerieComponent,
     LoginComponent,
-    MenuComponent
+    MenuComponent,
+    CardComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
