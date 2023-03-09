@@ -6,11 +6,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
-import { PagesComponent } from './components/pages/pages/pages.component';
+import { HomeComponent } from './pages/home/home.component';
+
 import { SerieComponent } from './components/serie/serie.component';
-import { LoginComponent } from './components/login/login.component';
-import { MenuComponent } from './components/menu/menu.component';
+import { LoginComponent } from './pages/login/login.component';
+import { MenuComponent } from './pages/menu/menu.component';
 import { CardComponent } from './components/card/card.component';
 import { HeaderComponent } from './components/header/header.component';
 
@@ -18,7 +18,7 @@ import { HeaderComponent } from './components/header/header.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    PagesComponent,
+
     SerieComponent,
     LoginComponent,
     MenuComponent,

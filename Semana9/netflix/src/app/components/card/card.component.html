@@ -1,4 +1,5 @@
-<div (click)="navegarParaSerie(serie.id)" (mouseover)="show = true" (mouseout)="show = false" [ngClass]="show ? 'bigger' : 'normal'" class="card">
+<div (click)="navegarParaSerie(serie.id)" (mouseover)="show = true"
+  (mouseout)="show = false" [ngClass]="show ? 'bigger' : 'normal'" class="card">
   <img width="200" [src]="serie.poster">
   <div [ngClass]="show ? 'show-card' : 'hidden-card' ">
     <h4 class="titulo">{{ serie.name }}</h4>

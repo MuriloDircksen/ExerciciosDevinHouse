@@ -12,7 +12,7 @@
     }
   ],
   "series": [
-    [
+
       {
         "url": "https://www.netflix.com/title/80189221",
         "name": "The Haunting of Hill House",
@@ -3417,6 +3417,6 @@
         "id": "2b0b2a1f-a3e4-55f5-96cb-8015d4ae8817",
         "scrapedAt": "05/03/2022 14:56:59"
       }
-    ]
+
   ]
 }
