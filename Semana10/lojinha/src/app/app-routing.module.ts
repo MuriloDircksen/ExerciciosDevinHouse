@@ -1,3 +1,4 @@
+import { LoginComponent } from './pages/login/login.component';
 import { FullComponent } from './layouts/full/full.component';
 import { ContentComponent } from './layouts/content/content.component';
 import { NgModule } from '@angular/core';
@@ -14,12 +15,13 @@ const routes: Routes = [
       },
       {
         path: 'login',
+        component:LoginComponent
 
       }
     ]
   },
   {
-    path: '',
+    path: 'home',
     component: FullComponent,
     children: [
 
