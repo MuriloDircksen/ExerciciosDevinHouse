@@ -27,7 +27,9 @@ import { UsuarioPipe } from './pipes/usuario.pipe';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    UsuarioPipe
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
