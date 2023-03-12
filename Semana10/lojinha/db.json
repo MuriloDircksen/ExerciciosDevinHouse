@@ -5,5 +5,26 @@
       "email": "adm@adm.com",
       "senha": "12345"
     }
+  ],
+  "products":[
+    {
+      "id": 1,
+      "name": "Shoes",
+      "quantity": 50,
+      "unitPrice": 100
+    },
+    {
+      "id": 1,
+      "name": "Socks",
+      "quantity": 50,
+      "unitPrice": 100
+    },
+    {
+      "id": 1,
+      "name": "T-Shirt",
+      "quantity": 50,
+      "unitPrice": 100
+    }
+
   ]
 }

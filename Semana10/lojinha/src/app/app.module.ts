@@ -10,6 +10,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MenuComponent } from './components/menu/menu.component';
 import { UsuarioPipe } from './pipes/usuario.pipe';
+import { ListComponent } from './pages/products/list/list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UsuarioPipe } from './pipes/usuario.pipe';
     ContentComponent,
     LoginComponent,
     MenuComponent,
-    UsuarioPipe
+    UsuarioPipe,
+    ListComponent
   ],
   imports: [
     BrowserModule,
