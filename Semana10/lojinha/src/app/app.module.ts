@@ -12,6 +12,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { UsuarioPipe } from './pipes/usuario.pipe';
 import { ListComponent } from './pages/products/list/list.component';
 import { CreateComponent } from './pages/products/create/create.component';
+import { SearchPipe } from './pipes/search.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CreateComponent } from './pages/products/create/create.component';
     MenuComponent,
     UsuarioPipe,
     ListComponent,
-    CreateComponent
+    CreateComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { CreateComponent } from './pages/products/create/create.component';
     ReactiveFormsModule
   ],
   providers: [
-    UsuarioPipe
+    UsuarioPipe,
+    SearchPipe
   ],
   bootstrap: [AppComponent]
 })

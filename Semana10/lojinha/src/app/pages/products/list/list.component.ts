@@ -1,6 +1,7 @@
 import { ProdutosService } from './../../../service/produtos.service';
 import { IProduto } from './../../../models/produto';
 import { Component } from '@angular/core';
+import { SearchPipe } from 'src/app/pipes/search.pipe';
 
 @Component({
   selector: 'app-list',
@@ -9,9 +10,10 @@ import { Component } from '@angular/core';
 })
 export class ListComponent {
 
+  keySearch: string = '';
   listaProdutos: IProduto[]=[];
 
-  constructor(private produtosService: ProdutosService){
+  constructor(private produtosService: ProdutosService, private pipe: SearchPipe){
     this.getListaProdutos();
   }
 
