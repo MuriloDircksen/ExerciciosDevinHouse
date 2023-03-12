@@ -11,6 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MenuComponent } from './components/menu/menu.component';
 import { UsuarioPipe } from './pipes/usuario.pipe';
 import { ListComponent } from './pages/products/list/list.component';
+import { CreateComponent } from './pages/products/create/create.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ListComponent } from './pages/products/list/list.component';
     LoginComponent,
     MenuComponent,
     UsuarioPipe,
-    ListComponent
+    ListComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule,

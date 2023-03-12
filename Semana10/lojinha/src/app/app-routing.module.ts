@@ -4,6 +4,7 @@ import { FullComponent } from './layouts/full/full.component';
 import { ContentComponent } from './layouts/content/content.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CreateComponent } from './pages/products/create/create.component';
 
 const routes: Routes = [
   {
@@ -26,8 +27,12 @@ const routes: Routes = [
     component: FullComponent,
     children: [
       {
-        path: '',
+        path: 'list',
         component: ListComponent
+      },
+      {
+        path: 'create',
+        component: CreateComponent
       }
     ]
   }

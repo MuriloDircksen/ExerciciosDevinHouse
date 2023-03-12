@@ -2,5 +2,6 @@ export interface IProduto{
   id: number
   name: string,
   quantity: number,
-  unitPrice: number
+  unitPrice: number,
+  userName?: string
 }
