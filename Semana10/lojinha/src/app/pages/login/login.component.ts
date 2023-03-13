@@ -58,7 +58,7 @@ export class LoginComponent implements OnInit {
         }
 
       }
-
+      alert('Email ou senha inválidos!')
       return false;
 
     })
@@ -80,9 +80,6 @@ export class LoginComponent implements OnInit {
       this.router.navigate(['/home'])
     }
 
-}
-
-
-
+  }
 
 }
